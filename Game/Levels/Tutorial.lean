@@ -1,4 +1,4 @@
-import AddGame.Levels.Tutorial.Level_1
+import Game.Levels.Tutorial.Level_1
 
 Game "AddGame"
 World "Tutorial"

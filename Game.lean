@@ -1,6 +1,6 @@
-import AddGame.Levels.Tutorial
+import GameServer.Commands
+import Game.Levels.Tutorial
 
-Game "AddGame"
 Title "Testing AddGame"
 Introduction
 "
