@@ -1,8 +1,7 @@
-import GameServer.Commands
+import AddGame.Levels.Tutorial
 
-import Game.Levels.Tutorial
-
-Title "Testing Lean4Game"
+Game "AddGame"
+Title "Testing AddGame"
 Introduction
 "
 # Testing Lean4Game
