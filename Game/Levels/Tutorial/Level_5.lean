@@ -2,10 +2,14 @@ import GameServer.Commands
 
 World "Tutorial"
 Level 5
-Title "the induction tactic."
+Title "Advanced Conjunctions."
 
-Statement more_conjunction
-"p → q → p"
+Introduction "
+You should be able to solve this now.
+"
+
+Statement conjunction_advanced
+"If p then: If q then: If r then: p and q and r"
     (p q r: Prop) : q → (p → (r → p ∧ (q ∧ r))):= by
     intro h1
     intro h2
