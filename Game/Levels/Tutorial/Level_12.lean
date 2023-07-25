@@ -10,9 +10,11 @@ In Lean we can use this with the contradiction tactic.
 "
 
 Statement efq
-"(false → p)"
-    (p: Prop) : (false → p):= by
+"¬p → (p → q)"
+    (p q: Prop) : ¬p → (p → q):= by
     intro h1
-    contradiction
+    intro h2
+    trivial
+
 
 NewTactic contradiction
