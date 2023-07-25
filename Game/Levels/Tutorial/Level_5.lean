@@ -2,13 +2,13 @@ import GameServer.Commands
 
 World "Tutorial"
 Level 5
-Title "Advanced Conjunctions."
+Title "Advanced Conjunctions"
 
 Introduction "
 You should be able to solve this now.
 "
 
-Statement conjunction_advanced
+Statement Conjunction_Advanced
 "If p then: If q then: If r then: p and q and r"
     (p q r: Prop) : q → (p → (r → p ∧ (q ∧ r))):= by
     intro h1

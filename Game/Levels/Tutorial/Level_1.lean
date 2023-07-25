@@ -2,7 +2,7 @@ import GameServer.Commands
 
 World "Tutorial"
 Level 1
-Title "Intro and Exact."
+Title "Intro and Exact"
 
 Introduction "
 An implication A ⇒ B is denoted q → p in lean and means if A then B.
@@ -19,7 +19,7 @@ If you need help you can show the Hint.
 Also it is recommended to switch on Editor mode.
 "
 
-Statement Introduction_Imply
+Statement Imply_Introduction
 "If p then: If q then p"
     (p q: Prop) : p → q → p := by
     Hint "Introduce the first hypothesis with \"intro h1\""

@@ -2,13 +2,13 @@ import GameServer.Commands
 
 World "Tutorial"
 Level 2
-Title "The apply Tactic."
+Title "The apply Tactic"
 
 Introduction "
 apply e tries to match the conclusion of e against the current Goal.
 "
 
-Statement Introduction_Apply
+Statement Apply_Introduction
 "If p then: p → q implies q"
     (p q: Prop) : p → ((p → q) → q):= by
     Hint "Try the intro tactic to get all the assumptions first"

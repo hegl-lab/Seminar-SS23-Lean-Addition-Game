@@ -2,14 +2,14 @@ import GameServer.Commands
 
 World "Tutorial"
 Level 4
-Title "Conjunctions."
+Title "Conjunctions"
 
 Introduction "
 Now lets look at conjunctions.
 If our Goal is p ∧ q, we can use the Constructor of Conjunctions to first prove p and than q.
 "
 
-Statement conjunction
+Statement Conjunction_Intro
 "If p then: If q then p and q"
     (p q: Prop) : q → p → (p ∧ q):= by
     intro h1
