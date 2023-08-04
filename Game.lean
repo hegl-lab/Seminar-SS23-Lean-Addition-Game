@@ -9,6 +9,6 @@ Introduction
 
 "
 
-Path Tutorial
+Dependency Tutorial
 
 MakeGame
