@@ -17,4 +17,6 @@ Statement double_negation
     (p: Prop) : p → ¬¬p:= by
         intro h1
         intro h2
-        contradiction
+        trivial
+
+NewTactic trivial

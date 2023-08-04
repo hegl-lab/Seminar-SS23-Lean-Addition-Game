@@ -14,7 +14,7 @@ Statement efq
     (p q: Prop) : ¬p → (p → q):= by
     intro h1
     intro h2
-    trivial
+    contradiction
 
 
 NewTactic contradiction
