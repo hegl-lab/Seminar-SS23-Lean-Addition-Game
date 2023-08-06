@@ -8,7 +8,7 @@ Introduction "
 Put these two definitions together to prove the commutativity of conjunction again.
 "
 
-Statement Conjunction_Commutativity
+Statement
 "(p ∧ q) → (q ∧ p)"
     (p q: Prop) : (p ∧ q) → (q ∧ p):= by
     intro h1

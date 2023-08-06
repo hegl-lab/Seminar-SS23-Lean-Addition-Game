@@ -8,7 +8,7 @@ Introduction "
 instead of the cases tactic, we can use And.left and And.right to get the two parts of a conjunction.
 "
 
-Statement Conjunction_Hypothesis
+Statement
 "p → q → p"
     (p q: Prop) : (q ∧ p) → q:= by
     intro h1

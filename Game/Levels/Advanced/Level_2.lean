@@ -8,7 +8,7 @@ Introduction "
 We can now also solve this with And.intro.
 "
 
-Statement Conjunction_Advanced
+Statement
 "If p then: If q then: If r then: p and q and r"
     (p q r: Prop) : q → (p → (r → p ∧ (q ∧ r))):= by
     intro h1

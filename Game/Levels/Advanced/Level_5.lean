@@ -13,7 +13,8 @@ Statement
 "p → (p ∨ q)"
     (p q: Prop) : p → (p ∨ q):= by
     intro h1
-    Hint "Use Or.intro_left, look at the Lemma description for how to use it."
+    Hint "Use Or.intro_left it takes two arguments, the first is the right side of the disjunction, the second a proof of the left side.
+    Here it would be Or.intro_left q h1"
     exact Or.intro_left q h1
 
 

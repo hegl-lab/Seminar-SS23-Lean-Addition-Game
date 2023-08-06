@@ -9,7 +9,7 @@ If we have a Conjunction as a hypothesis, then we can split it up with the cases
 "
 
 Statement
-"p → q → p"
+"(q ∧ p) → q"
     (p q: Prop) : (q ∧ p) → q:= by
     intro h1
     Hint "Write \"cases h1\""

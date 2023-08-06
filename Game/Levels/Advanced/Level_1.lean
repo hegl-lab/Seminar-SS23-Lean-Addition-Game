@@ -20,8 +20,4 @@ Statement
 
 DisabledTactic constructor
 
-NewLemma And.intro And
-
-Conclusion "
-You can also introduce both hypotheses at the same time with \"intro h1 h2\"
-"
+NewLemma And.intro

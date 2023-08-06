@@ -8,7 +8,7 @@ Introduction "
 You are now ready to prove the commutativity of disjunction.
 "
 
-Statement Disjunction_Commutativity
+Statement 
 "p ∨ q → q ∨ p"
     (p q: Prop) : p ∨ q → q ∨ p:= by
     intro h1

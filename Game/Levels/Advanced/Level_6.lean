@@ -8,7 +8,7 @@ Introduction "
 instead of cases, we can use the Lemma Or.elim to prove a disjunction
 "
 
-Statement Disjunction_Hypothesis
+Statement
 "(p ∨ q) → ((p → q) → q)"
     (p q: Prop) : (p ∨ q) → ((p → q) → q):= by
     intro h1
@@ -19,5 +19,7 @@ Statement Disjunction_Hypothesis
     trivial
     intro h2 _
     trivial
+
+NewLemma Or.elim
 
 DisabledTactic cases
