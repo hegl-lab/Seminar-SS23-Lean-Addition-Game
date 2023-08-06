@@ -1,6 +1,7 @@
 import GameServer.Commands
 
 import Game.Levels.Tutorial
+import Game.Levels.Advanced
 
 Title "Natural Number Game"
 Introduction
@@ -9,6 +10,6 @@ Introduction
 
 "
 
-Dependency Tutorial
+Dependency Tutorial → Advanced
 
 MakeGame

@@ -8,7 +8,7 @@ Introduction "
 You can apply Lemmas Or.inl and Or.inr. Look at the definitions on the right for more info.
 "
 
-Statement Disjunction_Intro
+Statement
 "p → (p ∨ q)"
     (p q: Prop) : p → (p ∨ q):= by
     intro h1

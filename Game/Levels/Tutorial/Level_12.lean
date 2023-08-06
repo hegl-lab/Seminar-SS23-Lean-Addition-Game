@@ -9,7 +9,7 @@ The principle of explosion states that from a contradiction, anything follows.
 In Lean we can use this with the contradiction tactic.
 "
 
-Statement efq
+Statement 
 "¬p → (p → q)"
     (p q: Prop) : ¬p → (p → q):= by
     intro h1

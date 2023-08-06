@@ -12,7 +12,7 @@ into
     ⊢ False
 "
 
-Statement double_negation
+Statement 
 "p → ¬¬p"
     (p: Prop) : p → ¬¬p:= by
         intro h1

@@ -8,7 +8,7 @@ Introduction "
 Using both constructor and cases, we can prove the commutativity of ∧
 "
 
-Statement Conjunction_Commutativity
+Statement 
 "(p ∧ q) → (q ∧ p)"
     (p q: Prop) : (p ∧ q) → (q ∧ p):= by
     intro h1

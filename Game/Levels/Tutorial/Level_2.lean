@@ -8,7 +8,7 @@ Introduction "
 apply e tries to match the conclusion of e against the current Goal.
 "
 
-Statement Apply_Introduction
+Statement
 "If p then: p → q implies q"
     (p q: Prop) : p → ((p → q) → q):= by
     Hint "Try the intro tactic to get all the assumptions first"

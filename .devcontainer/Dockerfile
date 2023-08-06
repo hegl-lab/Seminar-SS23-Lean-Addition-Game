@@ -4,7 +4,7 @@ WORKDIR /
 
 ENV ELAN_HOME=/usr/local/elan \
   PATH=/usr/local/elan/bin:$PATH \
-  LEAN_VERSION=leanprover/lean4:nightly
+  LEAN_VERSION=leanprover/lean4:nightly-2023-03-09
 
 SHELL ["/bin/bash", "-euxo", "pipefail", "-c"]
 

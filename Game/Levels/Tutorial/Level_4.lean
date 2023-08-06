@@ -9,7 +9,7 @@ Now lets look at conjunctions.
 If our Goal is p ∧ q, we can use the Constructor of Conjunctions to first prove p and than q.
 "
 
-Statement Conjunction_Intro
+Statement
 "If p then: If q then p and q"
     (p q: Prop) : q → p → (p ∧ q):= by
     intro h1

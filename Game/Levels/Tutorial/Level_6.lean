@@ -8,7 +8,7 @@ Introduction "
 If we have a Conjunction as a hypothesis, then we can split it up with the cases tactic
 "
 
-Statement Conjunction_Hypothesis
+Statement
 "p → q → p"
     (p q: Prop) : (q ∧ p) → q:= by
     intro h1

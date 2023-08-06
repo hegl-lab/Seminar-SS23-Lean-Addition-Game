@@ -19,7 +19,7 @@ If you need help you can show the Hint.
 Also it is recommended to switch on Editor mode.
 "
 
-Statement Imply_Introduction
+Statement
 "If p then: If q then p"
     (p q: Prop) : p → q → p := by
     Hint "Introduce the first hypothesis with \"intro h1\""

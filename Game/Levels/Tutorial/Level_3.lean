@@ -14,7 +14,7 @@ Aristotles most famous syllogism is:
 lets prove it in lean.
 "
 
-Statement Syllogism
+Statement
 "
     All men are mortal.
     Socrates is a man.
