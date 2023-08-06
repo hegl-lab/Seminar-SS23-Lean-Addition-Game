@@ -8,7 +8,7 @@ def LocalGameServer : Dependency := {
 
 def RemoteGameServer : Dependency := {
   name := `GameServer
-  src := Source.git "https://github.com/leanprover-community/lean4game.git" "main" "server"
+  src := Source.git "https://github.com/leanprover-community/lean4game.git" "5072dacf947d4f682e14a56816eb10f9e46d7203" "server"
 }
 
 /- Choose dependency depending on the environment variable NODE_ENV -/
@@ -18,9 +18,6 @@ open Lean in
     if (← IO.getEnv "NODE_ENV") == some "development" then ``LocalGameServer else ``RemoteGameServer
   modifyEnv (fun env => Lake.packageDepAttr.ext.addEntry env gameServerName)
    : Elab.Command.CommandElabM Unit)
-
-require std from git
-  "https://github.com/leanprover/std4" @ "44a92d84c31a88b9af9329a441890ad449d8cd5f"
 
 package Game where
   moreLeanArgs := #["-Dtactic.hygienic=false"]
