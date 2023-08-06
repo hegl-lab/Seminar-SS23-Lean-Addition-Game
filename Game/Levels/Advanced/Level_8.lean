@@ -15,11 +15,15 @@ Now that we have learned the definitions, lets look at how Or and And are define
     | inr : b → Or a b
 
 The inductive type is a type that can have multiple constructors.
+
 Intuitively And a b is true if both a and b are true, which can be written as a → b → And a b.
+
 This is exactly what the intro constructor does, it takes a proof of a and a proof of b and returns a proof of And a b.
+
 Or a b is true if either a or b is true, so we have two constructors, one for each case.
 
 Now lets proove de Morgan's law.
+
 Use Iff.intro to split the goal into two implications.
 "
 
