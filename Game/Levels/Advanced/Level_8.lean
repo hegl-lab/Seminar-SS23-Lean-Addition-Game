@@ -22,7 +22,7 @@ This is exactly what the intro constructor does, it takes a proof of a and a pro
 
 Or a b is true if either a or b is true, so we have two constructors, one for each case.
 
-Now lets proove de Morgan's law.
+Now lets prove de Morgan's law.
 
 Use Iff.intro to split the goal into two implications.
 "
