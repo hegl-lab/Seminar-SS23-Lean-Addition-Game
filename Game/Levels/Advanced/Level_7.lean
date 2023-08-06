@@ -8,14 +8,14 @@ Introduction "
 You are now ready to prove the commutativity of disjunction.
 "
 
-Statement 
+Statement
 "p ∨ q → q ∨ p"
     (p q: Prop) : p ∨ q → q ∨ p:= by
     intro h1
     apply h1.elim
     intro h2
-    exact Or.intro_right q h2
+    apply Or.intro_right q h2
     intro h2
-    exact Or.intro_left p h2
+    apply Or.intro_left p h2
 
 DisabledTactic cases Or.inl Or.inr

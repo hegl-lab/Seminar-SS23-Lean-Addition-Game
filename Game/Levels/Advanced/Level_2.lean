@@ -14,8 +14,8 @@ Statement
     intro h1
     intro h2
     intro h3
-    Hint "You need to use exact again with nested And.intro s.
+    Hint "You need to use apply again with nested And.intro s.
     This can be done by putting the second argument in parentheses and then using And.intro again."
-    exact And.intro h2 (And.intro h1 h3)
+    apply And.intro h2 (And.intro h1 h3)
 
 DisabledTactic constructor

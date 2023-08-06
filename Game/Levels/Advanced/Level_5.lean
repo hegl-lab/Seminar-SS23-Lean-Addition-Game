@@ -15,7 +15,7 @@ Statement
     intro h1
     Hint "Use Or.intro_left it takes two arguments, the first is the right side of the disjunction, the second a proof of the left side.
     Here it would be Or.intro_left q h1"
-    exact Or.intro_left q h1
+    apply Or.intro_left q h1
 
 
 DisabledLemma Or.inl Or.inr

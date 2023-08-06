@@ -13,6 +13,6 @@ Statement
     (p q: Prop) : (p ∧ q) → (q ∧ p):= by
     intro h1
     Hint "Use And.intro with two parentheses and And.left and And.right."
-    exact And.intro (And.right h1) (And.left h1)
+    apply And.intro (And.right h1) (And.left h1)
 
 DisabledTactic constructor cases

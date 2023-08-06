@@ -12,7 +12,7 @@ Statement
 "p → q → p"
     (p q: Prop) : (q ∧ p) → q:= by
     intro h1
-    exact And.left h1
+    apply And.left h1
 
 DisabledTactic cases
 

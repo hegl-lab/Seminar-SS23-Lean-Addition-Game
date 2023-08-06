@@ -43,8 +43,8 @@ Statement
     intro h2
     Hint "apply Or.elim"
     apply Or.elim h2
-    exact h1.left
-    exact h1.right
+    apply h1.left
+    apply h1.right
 
 NewLemma Iff.intro
 

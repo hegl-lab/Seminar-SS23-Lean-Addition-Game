@@ -15,10 +15,9 @@ Statement
     (p q : Prop): q → p → p ∧ q := by
     intro hq
     intro hp
-    Hint "Use exact And.intro _ _ with the two hypotheses"
-    exact And.intro hp hq
+    Hint "Use apply And.intro _ _ with the two hypotheses"
+    apply And.intro hp hq
 
 DisabledTactic constructor
 
 NewLemma And.intro
-
