@@ -2,19 +2,19 @@
 
 ## Tutorial
 
-1. p → q → p
+1. p → q → p implications
 2. p → ((p → q) → q)
 3. (q → r) → ((p → q) → (p → r))  syllogism
-4. q → (p → (p ∧ q))
+4. q → (p → (p ∧ q)) conjunctions
 5. q → (p → (r → p ∧ (q ∧ r)))
 6. (q ∧ p) → q
 7. (p ∧ q) → (q ∧ p)
-8. p → (p ∨ q)
+8. p → (p ∨ q) disjunctions
 9. q → (p ∨ (q ∨ r))
 10. (p ∨ q) → ((p → q) → q)
 11. (p ∨ q) → (q ∨ p)
 12. (f → p)
-13. ¬p → (p → q)
+13. ¬p → (p → q) negations
 14. p → ¬¬p
 
 ## Advanced
@@ -26,4 +26,4 @@
 5. p → (p ∨ q)
 6. (p ∨ q) → ((p → q) → q)
 7. p ∨ q → q ∨ p
-8. ¬(p ∨ q) ↔ (¬p ∧ ¬q)
+8. ¬(p ∨ q) ↔ (¬p ∧ ¬q) de moore's law
