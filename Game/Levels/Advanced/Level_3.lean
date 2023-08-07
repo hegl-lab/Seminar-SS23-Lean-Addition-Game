@@ -9,7 +9,7 @@ instead of the cases tactic, we can use And.left and And.right to get the two pa
 "
 
 Statement
-"p → q → p"
+"(q ∧ p) → q"
     (p q: Prop) : (q ∧ p) → q:= by
     intro h1
     apply And.left h1
